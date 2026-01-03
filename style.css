@@ -6,7 +6,7 @@
        url("fonts/AnonymousPro-Regular.woff")  format("woff"); /* opcional woff fallback */
   font-weight: 400;
   font-style: normal;
-  font-display: swap;                      /* evita flash de invisible text */
+  font-display: block;                      /* evita flash de invisible text */
 }
 
 /* Bold */
@@ -16,7 +16,7 @@
        url("fonts/AnonymousPro-Bold.woff")  format("woff");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 
@@ -26,7 +26,7 @@
        url("fonts/Poppins-Regular.woff")  format("woff");
   font-weight: 100;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 /* Alumni Sans Regular */
@@ -36,7 +36,7 @@
        url("fonts/AlumniSans-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 /* Alumni Sans ExtraBold */
@@ -56,7 +56,7 @@
        url("fonts/Bahianita-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 
@@ -66,7 +66,7 @@
 :root {
   --color-primario: #F8C46F;
   --color-secundario: #232F33;
-  --color-terciario: #B5BFC4;
+  --color-terciario: #dbe4df;
 
   --color-texto: #021B21;
   --color-fondo: #FDFDFD;
@@ -1833,7 +1833,7 @@ ul.meta-social li a.instagram-share:hover {
 
 .meta-social ul li a.linkedin-share:hover,
 ul.meta-social li a.linkedin-share:hover {
-    border-color: #0e76a8;
+    border-color: #065072;
     background-color: #0e76a8;
 }
 
@@ -1849,10 +1849,10 @@ ul.meta-social li a.skype-share:hover {
     background-color: #00aff0;
 }
 
-.meta-social ul li a.twitter-share:hover,
-ul.meta-social li a.twitter-share:hover {
-    border-color: #00acee;
-    background-color: #00acee;
+.meta-social ul li a.x-twitter-share:hover,
+ul.meta-social li a.x-twitter-share:hover {
+    border-color: #353535;
+    background-color: #000000;
 }
 
 .meta-social ul li a.vimeo-share:hover,
@@ -1863,7 +1863,7 @@ ul.meta-social li a.vimeo-share:hover {
 
 .meta-social ul li a.youtube-share:hover,
 ul.meta-social li a.youtube-share:hover {
-    border-color: #c4302b;
+    border-color: #8f1c18;
     background-color: #c4302b;
 }
 
